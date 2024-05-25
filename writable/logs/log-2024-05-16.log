@@ -1,0 +1,24 @@
+CRITICAL - 2024-05-16 22:15:14 --> Attempt to read property "id_barang" on null
+#0 E:\laragon\www\inventaris\inventaris\app\Views\qrcode\pdf.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\laragon\\www\\...', 183)
+#1 E:\laragon\www\inventaris\inventaris\system\View\View.php(210): include('E:\\laragon\\www\\...')
+#2 E:\laragon\www\inventaris\inventaris\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\laragon\www\inventaris\inventaris\system\Common.php(1089): CodeIgniter\View\View->render('qrcode/pdf', Array, true)
+#4 E:\laragon\www\inventaris\inventaris\app\Controllers\Scan.php(40): view('qrcode/pdf', Array)
+#5 E:\laragon\www\inventaris\inventaris\system\CodeIgniter.php(834): App\Controllers\Scan->pdf('dimension.png')
+#6 E:\laragon\www\inventaris\inventaris\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scan))
+#7 E:\laragon\www\inventaris\inventaris\system\CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\laragon\www\inventaris\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\laragon\www\inventaris\inventaris\system\Commands\Server\rewrite.php(43): require_once('E:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-05-16 22:15:48 --> Attempt to read property "id_barang" on null
+#0 E:\laragon\www\inventaris\inventaris\app\Views\qrcode\pdf.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'E:\\laragon\\www\\...', 183)
+#1 E:\laragon\www\inventaris\inventaris\system\View\View.php(210): include('E:\\laragon\\www\\...')
+#2 E:\laragon\www\inventaris\inventaris\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\laragon\www\inventaris\inventaris\system\Common.php(1089): CodeIgniter\View\View->render('qrcode/pdf', Array, true)
+#4 E:\laragon\www\inventaris\inventaris\app\Controllers\Scan.php(40): view('qrcode/pdf', Array)
+#5 E:\laragon\www\inventaris\inventaris\system\CodeIgniter.php(834): App\Controllers\Scan->pdf('dimension.png')
+#6 E:\laragon\www\inventaris\inventaris\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scan))
+#7 E:\laragon\www\inventaris\inventaris\system\CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\laragon\www\inventaris\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\laragon\www\inventaris\inventaris\system\Commands\Server\rewrite.php(43): require_once('E:\\laragon\\www\\...')
+#10 {main}

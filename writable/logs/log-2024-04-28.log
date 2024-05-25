@@ -1,0 +1,32 @@
+CRITICAL - 2024-04-28 10:56:49 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 E:\laragon\www\inventaris\inventaris\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 E:\laragon\www\inventaris\inventaris\spark(45): require('E:\\laragon\\www\\...')
+#2 {main}
+CRITICAL - 2024-04-28 10:57:28 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 E:\laragon\www\inventaris\inventaris\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 E:\laragon\www\inventaris\inventaris\spark(45): require('E:\\laragon\\www\\...')
+#2 {main}
+CRITICAL - 2024-04-28 05:20:08 --> Undefined variable $baseurl
+#0 E:\laragon\www\inventaris\inventaris\app\Views\landingpage.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\laragon\\www\\...', 17)
+#1 E:\laragon\www\inventaris\inventaris\system\View\View.php(210): include('E:\\laragon\\www\\...')
+#2 E:\laragon\www\inventaris\inventaris\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\laragon\www\inventaris\inventaris\system\Common.php(1089): CodeIgniter\View\View->render('landingpage', Array, true)
+#4 E:\laragon\www\inventaris\inventaris\app\Controllers\Landingpage.php(17): view('landingpage')
+#5 E:\laragon\www\inventaris\inventaris\system\CodeIgniter.php(834): App\Controllers\Landingpage->index()
+#6 E:\laragon\www\inventaris\inventaris\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landingpage))
+#7 E:\laragon\www\inventaris\inventaris\system\CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\laragon\www\inventaris\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\laragon\www\inventaris\inventaris\system\Commands\Server\rewrite.php(43): require_once('E:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2024-04-28 05:21:09 --> Undefined variable $base_url
+#0 E:\laragon\www\inventaris\inventaris\app\Views\landingpage.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\laragon\\www\\...', 17)
+#1 E:\laragon\www\inventaris\inventaris\system\View\View.php(210): include('E:\\laragon\\www\\...')
+#2 E:\laragon\www\inventaris\inventaris\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\laragon\www\inventaris\inventaris\system\Common.php(1089): CodeIgniter\View\View->render('landingpage', Array, true)
+#4 E:\laragon\www\inventaris\inventaris\app\Controllers\Landingpage.php(17): view('landingpage')
+#5 E:\laragon\www\inventaris\inventaris\system\CodeIgniter.php(834): App\Controllers\Landingpage->index()
+#6 E:\laragon\www\inventaris\inventaris\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landingpage))
+#7 E:\laragon\www\inventaris\inventaris\system\CodeIgniter.php(328): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\laragon\www\inventaris\inventaris\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\laragon\www\inventaris\inventaris\system\Commands\Server\rewrite.php(43): require_once('E:\\laragon\\www\\...')
+#10 {main}
